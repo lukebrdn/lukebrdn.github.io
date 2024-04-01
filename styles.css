@@ -1,5 +1,5 @@
 :root {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
 body {
@@ -19,7 +19,7 @@ body::before {
   background-position: center;
   transform: rotate(45deg) translateY(-20vw) translateX(-40vh);
   z-index: -1;
-  opacity: .1;
+  opacity: 0.1;
 }
 
 body::after {
@@ -100,13 +100,13 @@ main {
 }
 
 footer {
-  font-size: .9rem;
+  font-size: 0.9rem;
   border-top: 1px solid rgb(255, 223, 232);
   padding: 20px 10px;
   background-color: white;
   margin-top: 35vh;
   font-weight: 300;
-  letter-spacing: .2px
+  letter-spacing: 0.2px;
 }
 
 footer span {
@@ -125,7 +125,7 @@ li {
 }
 
 li + li {
-  margin-top: .7rem;
+  margin-top: 0.7rem;
 }
 
 li a {
@@ -140,7 +140,7 @@ li a:hover {
 
 @media (min-width: 600px) and (min-height: 600px) {
   html {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   body:before {
@@ -150,7 +150,9 @@ li a:hover {
     transform: rotate(45deg) translateY(100vh) translateX(-100vw);
   }
 
-  nav, main, footer {
+  nav,
+  main,
+  footer {
     padding: 20px;
   }
 
